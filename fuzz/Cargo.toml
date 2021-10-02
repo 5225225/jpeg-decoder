@@ -44,3 +44,9 @@ name = "regression"
 path = "fuzz_targets/regression.rs"
 test = false
 doc = false
+
+[[bin]]
+name = "decode"
+path = "fuzz_targets/decode.rs"
+test = false
+doc = false
